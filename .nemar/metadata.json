@@ -1,38 +1,92 @@
 {
   "version": "2.0",
-  "dataset_id": "on003570",
-  "source": "openneuro",
-  "source_id": "ds003570",
+  "pipeline_stage": "validated",
   "title": "EEG: Improvisation and Musical Structures",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Andrew Goldman": {},
     "Tyreek Jackson": {},
-    "Paul Sajda": {}
+    "Paul Sajda": {
+      "orcid": "0000-0002-9738-1342"
+    }
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003570.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1177/0305735618779444",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1101/2021.02.25.432633",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003570",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003570",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.1",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
       "funder_name": "Presidential Scholars in Society and Neuroscience program at Columbia University"
     },
     {
-      "funder_name": "Army Research Laboratory under Cooperative Agreement Number W911NF-15-2-0074"
+      "funder_name": "Army Research Laboratory",
+      "award_number": "W911NF-15-2-0074"
+    },
+    {
+      "funder_name": "Columbia University",
+      "award_title": "Presidential Scholars in Society and Neuroscience program"
     }
   ],
-  "acknowledgements": "Sincere thanks to Josef Faller, Raphael Gerraty, Daphna Shohamy, George Lewis, Peter Gordon, Lori Custodero, the LIINC Lab, and the Learning Lab for supporting this project. Thanks also to the Presidential Scholars in Society and Neuroscience program."
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".gitattributes",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset contains EEG recordings from musicians listening to chord progressions with varying harmonic structures. Participants were presented with standard and deviant musical sequences to investigate how improvisation experience influences the neural processing and categorization of musical structures. The study employs an oddball paradigm with harmonic deviants differing in either chord inversion (exemplar deviants) or harmonic function (function deviants) to probe musicians' implicit knowledge of tonal music.",
+  "methods_description": "EEG data were collected while musicians listened to chord progressions consisting of three chords presented sequentially (400 ms each) followed by 400 ms silence (total trial duration 1600 ms). Four chord progression types were used as standards (ii-IV-I, ii-V-I, ii-IV6-I, ii-V6-I) in separate experimental blocks. Deviant trials (15% probability) differed in the middle chord, either as exemplar deviants (chord inversion) or function deviants (different harmonic function). Each subject completed 8 blocks with 180 trials per block, totaling 1440 trials (222 functional and 218 exemplar deviants).",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "music perception"
+    },
+    {
+      "term": "harmonic processing"
+    },
+    {
+      "term": "oddball paradigm"
+    },
+    {
+      "term": "improvisation"
+    },
+    {
+      "term": "event-related potentials"
+    }
+  ],
+  "source_hash": "669cc095093c1085330909c07c25e50941713223bc2757571615a2d5e3fd243a"
 }
