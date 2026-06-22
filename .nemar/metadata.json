@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG: Improvisation and Musical Structures",
+  "description": "This dataset contains EEG recordings from musicians listening to chord progressions with varying harmonic structures. Participants were presented with four types of chord progressions (ii-IV-I, ii-V-I, ii-IV6-I, ii-V6-I) in an oddball paradigm, where deviant trials differed from standard trials in the middle chord through either exemplar (inversion) or functional (different harmonic class) manipulations. The study investigates how improvisation experience influences the neural processing and categorization of musical structures.",
+  "methods_description": "EEG was recorded while musicians listened to chord progressions consisting of three chords, each lasting 400 ms in piano timbre with 400 ms inter-trial silence (total trial length 1600 ms). Eight experimental blocks were presented per subject, each containing 180 trials with standard progressions and deviant trials (15% probability) that varied in harmonic inversion or function. The key of each progression was randomized across trials.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,12 +13,30 @@
       "orcid": "0000-0002-9738-1342"
     }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds003570.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "music perception"
+    },
+    {
+      "term": "chord progressions"
+    },
+    {
+      "term": "oddball paradigm"
+    },
+    {
+      "term": "harmonic processing"
+    },
+    {
+      "term": "musical improvisation"
+    },
+    {
+      "term": "auditory event-related potentials"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.1177/0305735618779444",
       "identifier_type": "DOI",
@@ -36,6 +56,11 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003570",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003570.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -51,12 +76,12 @@
       "award_title": "Presidential Scholars in Society and Neuroscience program"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "38.8 GB (81 files)"
   ],
   "formats": [
     ".fdt",
@@ -64,29 +89,8 @@
     ".json",
     ".md",
     ".set",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset contains EEG recordings from musicians listening to chord progressions with varying harmonic structures. Participants were presented with standard and deviant musical sequences to investigate how improvisation experience influences the neural processing and categorization of musical structures. The study employs an oddball paradigm with harmonic deviants differing in either chord inversion (exemplar deviants) or harmonic function (function deviants) to probe musicians' implicit knowledge of tonal music.",
-  "methods_description": "EEG data were collected while musicians listened to chord progressions consisting of three chords presented sequentially (400 ms each) followed by 400 ms silence (total trial duration 1600 ms). Four chord progression types were used as standards (ii-IV-I, ii-V-I, ii-IV6-I, ii-V6-I) in separate experimental blocks. Deviant trials (15% probability) differed in the middle chord, either as exemplar deviants (chord inversion) or function deviants (different harmonic function). Each subject completed 8 blocks with 180 trials per block, totaling 1440 trials (222 functional and 218 exemplar deviants).",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "music perception"
-    },
-    {
-      "term": "harmonic processing"
-    },
-    {
-      "term": "oddball paradigm"
-    },
-    {
-      "term": "improvisation"
-    },
-    {
-      "term": "event-related potentials"
-    }
-  ],
-  "source_hash": "669cc095093c1085330909c07c25e50941713223bc2757571615a2d5e3fd243a"
+  "source_hash": "cd859bde040eba24e915c60df503448897ccf9c5cecd30c29c453633b7aa0f1e"
 }
